@@ -7,6 +7,9 @@ do
 }
 while (text == "");
 
+// Бастапқы мәтінді экранға шығару
+Console.WriteLine($"Бастапқы мәтін: {text}");
+
 int wordCount = CountWords(text);
 
 Console.WriteLine($"Сөздер саны: {wordCount}");
